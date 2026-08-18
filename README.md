@@ -21,15 +21,8 @@
 
 ## 快速开始
 
-### 方式一：编译后直接运行可执行文件
 
-```
-dist/国密安全系统.exe
-```
-
-密钥存储位置：`%APPDATA%\国密安全系统\keys\`
-
-### 方式二：源码运行
+### 方式一：源码运行
 
 ```bash
 # 安装依赖
@@ -45,7 +38,7 @@ python main.py
 python -c "from main import demo_all; demo_all()"
 ```
 
-### 方式三：编译可执行文件
+### 方式二：编译可执行文件
 
 ```bash
 pip install pyinstaller
